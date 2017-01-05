@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-lean",
+  "homepage": "https://github.com/admxxi/bootstrap-lean",
+  "authors": [
+    "Andre Monteiro <admxxi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "sass-mq": "^3.3.2",
+    "gulp": "^3.9.1"
+  }
+}
