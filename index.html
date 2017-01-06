@@ -5,23 +5,61 @@
 	<title>Bootstrap Theme Simply Me</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/screen.css">
+	<link rel="stylesheet" href="assets/css/app.css">
 
 
 
 </head>
 
 <body>
-
+<div class="container-fluid">
 	<div class="row">
 	  <div class="col-md-12">Full width</div>
 	</div>
 	<div class="row">
-	  <div class="col-md-3">25%</div>
-	  <div class="col-md-3">25%</div>
-	  <div class="col-md-6">50%</div>
+	  <div class="col-xs-12 col-sm-2 col-md-3">25%</div>
+	  <div class="col-xs-12 col-sm-2 col-md-3">25%</div>
+	  <div class="col-xs-12 col-sm-8 col-md-6">50%</div>
 	</div>
 
+
+	<div class="row">
+	  <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+	  <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">
+	  .col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+	</div>
+
+	<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <div class="form-column">
+            <h3 class="form-section-heading">Personal Data</h3>
+            <div class="form-group ">
+                <label for="User_name" class="required">User Name <span class="required">*</span></label>
+							</div>
+
+            <div class="form-group ">
+                <label for="User_email" class="required">Email <span class="required">*</span></label>
+							</div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <div class="form-column">
+
+            <div class="form-group heading_space ">
+                                                <label for="User_new_password">New Password</label>
+																							 </div>
+
+            <div class="form-group ">
+                <label for="User_new_password_repeat">New Password Repeat</label>
+            </div>
+            <p style="font-size:12px">
+            The password fields must be filled only if you need to update it.            </p>
+        </div>
+    </div>
+</div>
+
+</div>
 </body>
+
 
 </html>
